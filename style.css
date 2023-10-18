@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Creepster&display=swap');
+
+
+
+
+
+
+body {
+
+}
+span.pink-bg {
+    font-family: 'Courier New', Courier, monospace;
+    color: lightgoldenrodyellow;
+}
+
+span.purple-bg {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: purple;
+    text-align: right;
+    
+}
+
+span.red-bg {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
+}
+
+span.blue-bg {
+    font-family: bagel fat one;
+    font-size: 2em;
+    color: hotpink;
+
+}
+
+span.green-bg{
+    color: green;
+    text-align: right;
+}
+
+span.black-bg {
+    color: crimson;
+}
+
+span.white-bg {
+    color: chocolate;
+}
+span.brown-bg {
+    color: darkslateblue;
+}
+
+span.grey-bg {
+    color: blueviolet;
+}
+
+

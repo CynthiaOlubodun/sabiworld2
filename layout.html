@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Kablammo&family=Moirai+One&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            background-color: lightpink;
+        }
+
+        .container {
+            width: 100vw;
+            height: 100vh;
+
+            font-family: moirai one;
+            font-weight: bold;
+            font-size: 20px;
+
+            display: grid;
+
+            
+
+            grid-template: 50px 1fr 1fr 100px/repeat(3,1fr);
+
+
+            gap: 10px;
+
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        .container div {
+            padding: 10px;
+            border: 1px solid lightblue;
+
+        }
+        .SABIWORLD {
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+        .SABICHAT-large {
+            grid-column-start: 2;
+            grid-column-end: span 2;
+            grid-column-start: 1;
+            grid-column-end: 3;
+            
+        }
+        
+        .footer {
+            grid-column: 1 / span 3;
+        }
+    
+      
+    </style>
+</head>
+<main>
+<body>
+    
+    <div class="container">
+        <div class="SABIWORLD"> <span class="blue-bg">  WELCOME TO SABI WORLD!! </span> 
+        </div>
+        <div class="SABICHAT-large">IM BORED LETS TEXT...
+
+            <span class="purple-bg">
+                !!w0m3n sh0uld b3 abl3 t0 say n0! - _ -
+            </span>
+
+        </div>
+        <div class="SABIABOUT-small"> 
+            <span class="pink-bg">
+                OUR IMAGINATION IS BOUNDLESS
+            CREATIVITY ACTS ALMOST AS A SIEVE.ENABLING US TO GATHER OUR UNQIUE PERSPECTIVES INTO ONE PIECE.
+            </span>
+        </div>
+        <div class="SABIABOUT-small">SAY SOMETHING NICE... 
+            <span class="red-bg">
+                ^_^!!$t0p b!Ack f3micid3!!
+            </span>
+          
+        </div>
+        <span class="black-bg">ABOUT: CITY-London FAVOURITE EATS- S@shi MUSIC- Beyonce Ayra Starr Sza Solange 
+            Shows- Gilmore Girls Reply 1988</span>
+
+
+        <div class="footer">SABIQuote
+            <section class="container">
+                <span class="green-bg">Please refresh me for a quote!</span>
+               
+
+            </section>
+        </div>
+        
+        
+        
+
+
+    </div>
+</body>
+</main>
+</html>
